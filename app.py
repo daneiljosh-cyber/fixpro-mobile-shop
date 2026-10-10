@@ -50,6 +50,11 @@ init_db()
 # APP LAYOUT & CONFIG
 # #########################################################
 st.set_page_config(page_title="FixPro - Mobile Repair Hub", page_icon="📱", layout="wide")
+# Link Web App Manifest for PWABuilder / PWA installation
+st.markdown(
+    '<link rel="manifest" href="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/fixpro-mobile-shop/main/manifest.json">', 
+    unsafe_allow_html=True
+)
 
 st.title("📱 FixPro — Mobile Repair & Shop Management")
 
