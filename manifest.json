@@ -1,0 +1,17 @@
+{
+"name": "FixPro Mobile Repair Hub",
+"short_name": "FixPro",
+"description": "Mobile Repair Shop Management and POS App",
+"start_url": "/",
+"display": "standalone",
+"background_color": "#ffffff",
+"theme_color": "#ff4b4b",
+"icons": [
+{
+"src": "https://raw.githubusercontent.com/streamlit/streamlit/main/docs/static/logo.png",
+"sizes": "512x512",
+"type": "image/png",
+"purpose": "any maskable"
+}
+ ]
+}
